@@ -1,0 +1,15 @@
+Flag_Regex:
+0xGame{JieFang([0-9]{3})ChengHen([0-7]{3})YouQu_GaoShu([0-9,a-f]{3})YeRuCi!}
+
+
+Flag_Examples:
+0xGame{JieFang413ChengHen767YouQu_GaoShucefYeRuCi!}
+0xGame{JieFang724ChengHen241YouQu_GaoShu12fYeRuCi!}
+0xGame{JieFang744ChengHen562YouQu_GaoShu971YeRuCi!}
+0xGame{JieFang497ChengHen127YouQu_GaoShue55YeRuCi!}
+0xGame{JieFang846ChengHen231YouQu_GaoShu2a6YeRuCi!}
+0xGame{JieFang407ChengHen230YouQu_GaoShub0dYeRuCi!}
+0xGame{JieFang739ChengHen113YouQu_GaoShu966YeRuCi!}
+0xGame{JieFang288ChengHen745YouQu_GaoShu375YeRuCi!}
+0xGame{JieFang950ChengHen556YouQu_GaoShuc41YeRuCi!}
+0xGame{JieFang367ChengHen632YouQu_GaoShu925YeRuCi!}
