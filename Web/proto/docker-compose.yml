@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    image: diaotu_manager
+    environment:
+      - FLAG=0xGame{do_u_like_these_diao_pictures}
+    ports:
+      - "0.0.0.0:3000:3000"

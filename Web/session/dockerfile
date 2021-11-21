@@ -1,0 +1,13 @@
+FROM jmsearcy/python3-flask
+WORKDIR /var/www/html/
+
+RUN echo 0xGame{Python_ls_th3_first_1anguage_ln_the_w0r1d} > /flag
+
+
+ADD ./src /var/www/html/
+COPY ./start.sh /etc
+RUN chmod u+x /etc/start.sh
+RUN chmod -R 755 /var/www/html/*
+RUN chmod 755 /flag
+EXPOSE 5000
+CMD ["python3", "app.py"]

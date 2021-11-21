@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    image: diaotu_manager
+    environment:
+      - FLAG=flag{test_flag}
+    ports:
+      - "0.0.0.0:3000:3000"

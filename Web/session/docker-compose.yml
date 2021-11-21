@@ -1,0 +1,11 @@
+services:
+  flask:
+    build: .
+    environment:
+      SECRET_KEY: 'x1ct34myyds_ytstflglgjhdfhsh'
+    image: flask
+    ports:
+    - 8083:5000
+version: '3'
+
+

@@ -1,0 +1,13 @@
+FROM python:3.7
+
+ADD flag /
+ADD source /code
+
+RUN chmod a-w /flag
+RUN pip install -r /code/requirements.txt
+RUN chmod a-w /cod/*
+
+RUN useradd n1k0la
+USER n1k0la
+
+CMD ["python","/code/app.py"]

@@ -1,0 +1,8 @@
+FROM php:5.6-apache
+
+ADD flag /
+ADD source /var/www/html
+
+
+RUN chmod a-w /flag
+RUN chmod a-w /var/www/html/*

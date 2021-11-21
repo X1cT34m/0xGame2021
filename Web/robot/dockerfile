@@ -1,0 +1,4 @@
+from php:5.6-apache
+
+ADD source /var/www/html
+
